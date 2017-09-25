@@ -16,6 +16,9 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
+  if katz_deli.size == 0
+    katz_deli << "#{name}"
+
   "#{name}"
   "#{katz_deli.size}"
 end
